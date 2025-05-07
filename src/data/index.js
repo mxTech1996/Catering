@@ -1,4 +1,4 @@
-export const pageName = 'Caterig';
+export const pageName = 'ZAZ';
 export const primaryColor = '#000000';
 export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
