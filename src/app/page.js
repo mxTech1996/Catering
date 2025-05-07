@@ -1,6 +1,6 @@
 'use client';
 
-import AboutSection from '@/components/organisms/about';
+import AboutSection from '@/components/organisms/About';
 import Footer from '@/components/organisms/Footer';
 import Hero from '@/components/organisms/Hero';
 import StickyNavbar from '@/components/organisms/Navbar';
