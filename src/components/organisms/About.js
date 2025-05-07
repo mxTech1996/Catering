@@ -2,6 +2,7 @@
 
 import { dataSite } from '@/data';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AboutSection() {
   return (
@@ -22,9 +23,11 @@ export default function AboutSection() {
           print, and outdoor media. Our team empowers businesses to build
           meaningful connections through messaging that resonates.
         </p>
-        <button className='bg-white text-black font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition'>
-          About us
-        </button>
+        <Link href='/services'>
+          <button className='bg-white text-black font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition'>
+            Our Services
+          </button>
+        </Link>
       </div>
 
       {/* Right: Image */}
